@@ -1,0 +1,51 @@
+.containerAll {
+    background-image: url('../../imagen/thumb-1920-113622.jpg');
+}
+
+.containerText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9d9a6;
+    /* Color de fondo suave */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* Sombra suave */
+    max-width: 400px;
+    /* Ancho máximo del contenedor */
+    margin: 0 auto;
+    /* Centrar horizontalmente */
+}
+
+/* Estilo para el encabezado h1 */
+.titulo {
+    font-size: 28px;
+    color: #333;
+    /* Color de texto principal */
+    margin: 10px 0;
+    text-transform: uppercase;
+    /* Texto en mayúsculas */
+}
+
+/* Estilo para el párrafo p */
+.texto {
+    font-size: 18px;
+    color: #555;
+    /* Color de texto secundario */
+    margin: 8px 0;
+}
+
+/* Estilo para la imagen */
+.image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 3px solid #fff;
+    /* Borde blanco alrededor de la imagen */
+    border-radius: 5px;
+}
+

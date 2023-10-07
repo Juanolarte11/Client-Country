@@ -1,0 +1,59 @@
+.addActivityContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+.activityForm {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: left;
+}
+
+.activityForm label {
+    font-weight: bold;
+}
+
+.activityForm input,
+.activityForm select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.activityForm button[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.activityForm button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para la lista de países seleccionados */
+.activityForm .selectedCountries {
+    margin-top: 20px;
+}
+
+.activityForm .selectedCountries ul {
+    list-style: none;
+    padding: 0;
+}
+
+.activityForm .selectedCountries li {
+    margin-bottom: 5px;
+}

@@ -1,0 +1,47 @@
+.container{
+    padding-left: 500px;
+    padding-right: 500px;
+    display: block;
+    align-items: center;
+}
+
+.paginado{
+    margin-bottom: 30px;
+    margin-top: 0;
+    margin-left: 290px;
+}
+
+.cards{
+    padding-top: 10px;
+}
+
+.containerCard{
+display: grid;
+grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual ancho */
+gap: 20px; 
+}
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d6bd56;
+    /* Color de fondo del botón */
+    color: #fff;
+    /* Color de texto del botón */
+    text-decoration: none;
+    /* Elimina la subrayado de enlace */
+    border: none;
+    border-radius: 5px;
+    /* Borde redondeado */
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-left: 20px;
+    margin-top: 5px;
+    /* Transición de color suave */
+}
+
+/* Cambiar el color del botón al pasar el mouse sobre él */
+.boton:hover {
+    background-color: #ffc800;
+    /* Color de fondo del botón al pasar el mouse */
+}
